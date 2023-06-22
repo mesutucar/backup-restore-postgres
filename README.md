@@ -1,5 +1,5 @@
 ### Backup & restore AWS RDS PostgreSQL instance with multiple DBs
-
+---
 * Backup schema:
 ```console
 pg_dumpall -h <old-db-url> --no-role-passwords -U postgres --schema-only > definition_only.sql
